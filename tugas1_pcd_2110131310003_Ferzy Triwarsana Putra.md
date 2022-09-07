@@ -1,4 +1,21 @@
-# Cara kerja mikroskop digital
+### Tugas 1 Pemrosesan Citra Digital
+### Sopia Refaldi
+### Ferzy Triwarsana Putra
+
+<hr>
+
+## Pengertian Mikroskop Digital
+Mikroskop digital bisa dikatakan merupakan jenis mikroskop model baru yang dilengkapi dengan kamera digital. Mikroskop jenis ini terhubung dengan kamera yang akan menunjukkan output gambar pengamatan pada monitor atau proyektor. Dengan begitu, hasil pengamatan bisa dilihat atau ditunjukkan oleh orang banyak, seperti tenaga pengajar yang ingin menunjukkan hasil pengamatan preparat kepada siswa. Mikroskop digital juga ada yang memiliki kemampuan untuk mengukur dan menampilkan gambar tiga dimensi. Berikut definisi, fungsi, cara kerja, dan bagian mikroskop digital!
+
+- **Definisi Mikroskop digital** merupakan perpaduan mikroskop optik dan kamera digital yang bisa menghasilkan gambar yang bisa tersimpan di dalam komputer. Berbeda dengan mikroskop model lainnya. Di samping itu, mikroskop digital juga tidak lagi mengharuskan Anda melihat objek pengamatan langsung dengan mata melalui lensa pengamat. Mikroskop digital sudah bisa melakukan pengamatan otomatis karena gambar difokuskan pada sirkuit digital dan seluruh gambar dirancang untuk gambar monitor, bukan gambar visual mata manusia.
+
+- **Fungsi mikroskop digital**
+Sama seperti mikroskop jenis lainnya, mikroskop digital memiliki fungsi untuk melakukan perbesaran pada objek kecil mikroskopik yang tidak akan mungkin terlihat oleh mata telanjang. Mikroskop ini cocok digunakan untuk penelitian di laboratorium maupun tujuan pendidikan di sekolah maupun universitas.
+Mikroskop digital, seperti yang sudah dijelaskan, bisa terhubung atau tersambung dengan komputer, sehingga hasil pengamatan yang dilakukan bisa lebih detail. Di samping itu, hasil pengamatan bisa langsung didokumentasikan ke dalam komputer. Kemampuan mikroskop digital ini sangat membantu dunia penelitian yang membutuhkan ketelitian tingkat tinggi. Hasil pengamatan penelitian tingkat tinggi bisa langsung didokumentasikan dan disimpan di dalam komputer sehingga semua data penelitian aman. 
+
+<hr>
+
+## Cara kerja mikroskop digital
 
 Mikroskop merupakan sebuah alat yang digunakan untuk memeperhatikan benda-benda kecil yang tidak bisa dilihat dengan mata biasa. Dalam penerapannya, mikroskop mampu melihat benda-benda dengan perbesaran hingga puluhan atau ratusan kali.
 
