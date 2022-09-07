@@ -15,7 +15,9 @@ Mikroskop digital, seperti yang sudah dijelaskan, bisa terhubung atau tersambung
 
 - Bagian dari Mikroskop Digital
 Meskipun ada banyak jenis mikroskop digital dan tujuan penggunaannya, ada beberapa bagian dasar mikroskop digital. Beberapa mikroskop optik dilengkapi dengan kamera mikroskop digital, sementara beberapa menawarkan kemampuan output HDMI/USB. Banyak mikroskop digital menyertakan kamera mikroskop digital dengan lampiran layar LCD untuk menampilkan gambar sementara banyak lainnya mengandalkan monitor komputer USB atau monitor HDMI yang terpisah.
-![](bagian.jpeg)
+
+![](Bagian.jpg)
+
 
 <hr>
 
