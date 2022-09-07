@@ -13,6 +13,10 @@ Mikroskop digital bisa dikatakan merupakan jenis mikroskop model baru yang dilen
 Sama seperti mikroskop jenis lainnya, mikroskop digital memiliki fungsi untuk melakukan perbesaran pada objek kecil mikroskopik yang tidak akan mungkin terlihat oleh mata telanjang. Mikroskop ini cocok digunakan untuk penelitian di laboratorium maupun tujuan pendidikan di sekolah maupun universitas.
 Mikroskop digital, seperti yang sudah dijelaskan, bisa terhubung atau tersambung dengan komputer, sehingga hasil pengamatan yang dilakukan bisa lebih detail. Di samping itu, hasil pengamatan bisa langsung didokumentasikan ke dalam komputer. Kemampuan mikroskop digital ini sangat membantu dunia penelitian yang membutuhkan ketelitian tingkat tinggi. Hasil pengamatan penelitian tingkat tinggi bisa langsung didokumentasikan dan disimpan di dalam komputer sehingga semua data penelitian aman. 
 
+- Bagian dari Mikroskop Digital
+Meskipun ada banyak jenis mikroskop digital dan tujuan penggunaannya, ada beberapa bagian dasar mikroskop digital. Beberapa mikroskop optik dilengkapi dengan kamera mikroskop digital, sementara beberapa menawarkan kemampuan output HDMI/USB. Banyak mikroskop digital menyertakan kamera mikroskop digital dengan lampiran layar LCD untuk menampilkan gambar sementara banyak lainnya mengandalkan monitor komputer USB atau monitor HDMI yang terpisah.
+![](bagian.jpeg)
+
 <hr>
 
 ## Cara kerja mikroskop digital
