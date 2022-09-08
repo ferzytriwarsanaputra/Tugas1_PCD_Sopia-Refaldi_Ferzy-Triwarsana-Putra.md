@@ -3,7 +3,7 @@
 ### Ferzy Triwarsana Putra
 
 <hr>
-asdsad
+
 ## Pengertian Mikroskop Digital
 Mikroskop digital bisa dikatakan merupakan jenis mikroskop model baru yang dilengkapi dengan kamera digital. Mikroskop jenis ini terhubung dengan kamera yang akan menunjukkan output gambar pengamatan pada monitor atau proyektor. Dengan begitu, hasil pengamatan bisa dilihat atau ditunjukkan oleh orang banyak, seperti tenaga pengajar yang ingin menunjukkan hasil pengamatan preparat kepada siswa. Mikroskop digital juga ada yang memiliki kemampuan untuk mengukur dan menampilkan gambar tiga dimensi. Berikut definisi, fungsi, cara kerja, dan bagian mikroskop digital!
 
