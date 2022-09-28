@@ -88,3 +88,39 @@ b. Digital halftoning image of PAINTER via patterning
     Gambar 4.5 Operasi dithering
 
     Listing 4.2 adalah implementasi MATLAB dari proses dithering.
+
+NAMA
+
+dither - menghasilkan gambar halftone digital melalui dithering
+
+RINGKASAN
+
+dither (nama_file_input, nama_file_output)
+
+dither (nama_file_input, nama_file_output, dmatrix)
+
+KETERANGAN
+
+Sinopsis pertama menggunakan matriks gentar default untuk ambang batas gambar input. Kekhawatiran default adalah
+
+<p align="center"><img src="gambar/dithering1.png" alt="Operasi Dithering" width="250px">
+
+Matriks ini adalah matriks gentar persegi panjang yang diekstraksi dari matriks gentar 450. 450 matriks gentar dapat membuat artefak kurang jelas. Sinopsis kedua, di sisi lain, menggunakan matriks gentar yang ditentukan oleh pengguna. gentar membaca dalam gambar input, membandingkan setiap piksel dengan elemen yang sesuai dalam matriks gentar, menghasilkan gambar output, dan menulisnya ke file output, yang dalam format TIFF. Sebuah kata peringatan: karena "gentar" membutuhkan banyak perhitungan, gambar berukuran kurang dari 100x100 direkomendasikan.
+
+CONTOH
+
+dither('LENA.TIF', 'di_le.tif')
+
+Contoh ini menghasilkan gambar halftone digital dari LENA menggunakan matriks gentar default (Gambar 4.5a.)
+
+dither('S_PAINTER.TIF', 'di_spa.tif', [105,135,30;90,67.5,120;45,15,45;])
+
+Contoh ini menghasilkan gambar halftone digital dari PAINTER menggunakan matriks gentar yang ditentukan oleh pengguna (Gambar 4.5b.)
+
+<p align="center"><img src="gambar/dithering2.png" alt="Operasi Dithering" width="200px">
+a. Dithered LENA
+
+<p align="center"><img src="gambar/dithering3.png" alt="Operasi Dithering" width="250px">
+b. Dithered PAINTER
+
+    Gambar 4.5 Contoh gambar keluaran dithering
