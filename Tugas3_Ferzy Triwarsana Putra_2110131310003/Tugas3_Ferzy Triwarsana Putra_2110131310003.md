@@ -2,12 +2,17 @@
 ## NIM : 2110131310003
 
 # Konversikan RGB ke Skala Abu-abu
+* ## Original
+<p align="center"><img src="gambar/original.PNG" alt="halftoning" width="500px">
+
 * ## Lightness Method
 Metode yang sangat sederhana adalah **dengan mengambil nilai rata-rata komponen dengan nilai tertinggi dan terendah:**
 
 grayscale = min(R,G,B)+max(R,G,B)/2
 
 **Kita dapat dengan mudah melihat bahwa metode ini menghadirkan kelemahan yang sangat serius karena satu komponen RGB tidak digunakan.** Ini jelas merupakan masalah karena jumlah cahaya yang dilihat mata kita bergantung pada ketiga warna dasar.
+
+<p align="center"><img src="gambar/lightness.PNG" alt="halftoning" width="500px">
 
 * ## Average Method
 Cara lain adalah dengan **mengambil nilai rata-rata dari ketiga komponen (merah, hijau, dan biru) sebagai nilai skala abu-abu:**
@@ -16,12 +21,16 @@ grayscale = R+G+B/3
 
 Meskipun sekarang kita memperhitungkan semua komponen, **metode rata-rata juga bermasalah karena memberikan bobot yang sama untuk setiap komponen.** Berdasarkan penelitian tentang penglihatan manusia, kita tahu bahwa mata kita bereaksi terhadap setiap warna dengan cara yang berbeda. **Secara khusus, mata kita lebih sensitif terhadap hijau, lalu merah, dan akhirnya biru.** Oleh karena itu, bobot dalam persamaan di atas harus berubah.
 
+<p align="center"><img src="gambar/average.PNG" alt="halftoning" width="500px">
+
 * ## Luminosity Method
 Metode terbaik adalah metode luminositas yang berhasil memecahkan masalah dari metode sebelumnya.
 
 Berdasarkan pengamatan di atas, kita harus mengambil rata-rata tertimbang dari komponen. **Kontribusi warna biru pada nilai akhir harus berkurang, dan kontribusi warna hijau harus meningkat. Setelah beberapa percobaan dan analisis yang lebih mendalam, peneliti menyimpulkan dalam persamaan di bawah ini:**
 
 grayscale = 0.3 * R + 0.59 * G + 0.11 * B
+
+<p align="center"><img src="gambar/luminosity.PNG" alt="halftoning" width="500px">
 
 # Halftoning
 <p align="justify">Halftoning atau halftoning analog adalah proses yang mensimulasikan nuansa abu-abu dengan memvariasikan ukuran titik-titik hitam kecil yang diatur dalam pola yang teratur. Teknik ini digunakan dalam printer, serta industri penerbitan. Jika Anda memeriksa sebuah foto di koran, Anda akan melihat bahwa gambar itu terdiri dari titik-titik hitam meskipun tampaknya terdiri dari abu-abu. Hal ini dimungkinkan karena integrasi spasial yang dilakukan oleh mata kita. Mata kita memadukan detail halus dan merekam intensitas keseluruhan [1]. Halftoning digital mirip dengan halftoning di mana gambar didekomposisi menjadi kotak sel halftone. Elemen (atau titik yang digunakan halftoning dalam mensimulasikan nuansa abu-abu) dari sebuah gambar disimulasikan dengan mengisi sel halftone yang sesuai. Semakin banyak jumlah titik hitam dalam sel halftone, semakin gelap sel tersebut. Misalnya, pada Gambar 4, sebuah titik kecil yang terletak di tengah disimulasikan dalam halftoning digital dengan mengisi sel halftone tengah; demikian juga, titik ukuran sedang yang terletak di sudut kiri atas disimulasikan dengan mengisi empat sel di sudut kiri atas. Titik besar yang menutupi sebagian besar area pada gambar ketiga disimulasikan dengan mengisi semua sel halftone.
