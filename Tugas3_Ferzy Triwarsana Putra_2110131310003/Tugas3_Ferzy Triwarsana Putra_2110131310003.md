@@ -124,3 +124,33 @@ a. Dithered LENA
 b. Dithered PAINTER
 
     Gambar 4.5 Contoh gambar keluaran dithering
+
+# Menentukan Pola Patterning dan Dithering
+* Patterning
+* Dithering
+* Matriks Threshold
+Dalam proses ini dibutuhkan suatu nilai batas yang disebut dengan nilai threshold.
+
+Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi 1 (berwarna putih) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi 0 (berwana hitam). Sehingga citra keluaran dari hasil thresholding adalah berupa citra biner.
+
+Persamaan yang digunakan untuk mengkonversi nilai piksel citra grayscale menjadi biner pada metode thresholding adalah:
+
+<p align="center"><img src="gambar/rumus-thresholding-citra.jpg" alt="Operasi Dithering" width="400px">
+
+di mana
+
+f(x,y) adalah citra grayscale
+
+g(x,y) adalah citra biner
+
+T adalah nilai threshold
+
+Ilustrasi perubahan nilai piksel pada proses thresholding
+
+<p align="center"><img src="gambar/thresholding-citra.png" alt="Operasi Dithering" width="500px">
+
+Berikut ini merupakan contoh citra hasil thresholding dengan beberapa variasi nilai threshold
+
+<p align="center"><img src="gambar/cara-thresholding-citra.png" alt="Operasi Dithering" width="500px">
+
+Gambar diatas menunjukkan bahwa semakin kecil nilai threshold maka akan semakin banyak warna putih yang diperoleh pada citra biner, sedangkan semakin besar nilai threshold maka akan semakin banyak warna hitam yang diperoleh.
