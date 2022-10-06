@@ -129,6 +129,7 @@ b. Dithered PAINTER
 * Patterning
 * Dithering
 * Matriks Threshold
+
 Dalam proses ini dibutuhkan suatu nilai batas yang disebut dengan nilai threshold.
 
 Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi 1 (berwarna putih) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi 0 (berwana hitam). Sehingga citra keluaran dari hasil thresholding adalah berupa citra biner.
