@@ -9,11 +9,11 @@ Untuk citra 8 bit, pada dasarnya tiap intensitas yang nilainya dalam format deci
 contoh penerapan bit plane slicing pada octave
 
 * Source Code
-<p align="center"><img src="gambar/2.PNG" alt="Gambar Asli">
+<p align="center"><img src="gambar/2.PNG" alt="source code">
 
 * Hasil :
 
-<p align="center"><img src="gambar/2_1.PNG" alt="Gambar Asli">
+<p align="center"><img src="gambar/2_1.PNG" alt="hasil">
 
 Awalnya kita mengambil gambar yang telah ditentukan, kemudian diubah ke grayscale menggunakan rgb2gray, setelah itu ukuran gambar kita pisah menjadi ukuran row dan ukuran column lalu kita tampilkan gambar asli yang sudah grayscale menggunakan subplot dengan ukuran 3x3 pada posisi 1 dengan judul gambar asli, kemudian kita buat matriks dalam Z denga nisi 0 semuanya dengan ukuran yang sama dengan gambar, dan 8 layer karena nanti tiap bit dipisah menjadi 8 lapis.
 
@@ -83,4 +83,4 @@ Menerapkan pada octave
 <p align="center"><img src="gambar/4.1.06.png" alt="Gambar Asli">
 
 * citra yang sudah disisipkan
-<p align="center"><img src="gambar/stego.png" alt="Gambar Asli">
+<p align="center"><img src="gambar/stego.png" alt="Gambar steganografi">
